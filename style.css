@@ -16,4 +16,29 @@
     backgroud-color: #fff4c3;
     border: 3px solid #ff8410;
     box-sizing: border-box;         /* 追加 */
+@media screen and (max-width: 768px) {
+    .box {
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 480px) {
+    .box {
+        background-color: green;
+    }
+}
+@media  screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+}
+@media screen and (max-width:480px) {
+    img {
+      display: none;
+    }
+}
+media screen and (max-width: 480px) {
+    img {
+        display: block;
+    }
+}
 }
