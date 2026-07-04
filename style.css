@@ -1,51 +1,24 @@
-.blue{
-    color: blue;
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+header {
+    width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
 }
-.red{
-    color: red;
-}
-.box1{
-    width: 500px;
-    height: 200px;
-    border: 2px dashed #666;
+a {
+    text-decoration: none;
 }
 
-.box2{
+.main-nav {
+    display: flex;
+    list-style: none;
+}
+
+footer {
     width: 100%;
-    padding: 10px;
-    backgroud-color: #fff4c3;
-    border: 3px solid #ff8410;
-    box-sizing: border-box;         /* 追加 */
-@media screen and (max-width: 768px) {
-    .box {
-        background-color: blue;
-    }
-}
-@media screen and (max-width: 480px) {
-    .box {
-        background-color: green;
-    }
-}
-@media  screen and (max-width: 480px) {
-    img {
-      width: 100%;
-    }
-}
-@media screen and (max-width:480px) {
-    img {
-      display: none;
-    }
-}
-media screen and (max-width: 480px) {
-    img {
-        display: block;
-    }
-}
-.content1 {
-    background-color: aqua;
-}
-
-.content2 {
-    background-color: greenyellow;
-}
-}
+ }
