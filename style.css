@@ -41,4 +41,11 @@ media screen and (max-width: 480px) {
         display: block;
     }
 }
+.content1 {
+    background-color: aqua;
+}
+
+.content2 {
+    background-color: greenyellow;
+}
 }
